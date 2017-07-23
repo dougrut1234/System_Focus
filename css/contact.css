@@ -1,0 +1,218 @@
+#course_wrap {
+	margin: 0 auto;
+	width: 1500px;
+}
+
+
+#title {
+	font-size: 96px;
+	font-family: 'Bree Serif', serif;
+	color: #B72000;
+	margin-left: 20px;
+	/*background-color: #F1F1F1;*/
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+	margin-left: -30px;
+	margin-right: -30px;
+	letter-spacing: 3px;
+	margin-bottom: 60px;
+	background-color: #EEEDED;
+
+}
+
+#contact {
+	float: right;
+	margin-top: -150px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	margin-right: 200px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#contact:hover {
+	text-shadow: 0 0 50px black;
+}
+
+
+
+#heading {
+	background-color: #4D1DD8;
+	width: 1500px;
+	padding-right: 50px;
+	height: 70px;
+	display: inline-block;
+	padding-left: 20px;
+	margin-left: -20px;
+	margin-top: -60px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border-top: 3px solid black;
+	border-bottom: 2px solid black;
+	z-index: -1;
+}
+
+#quotes {
+	float: right;
+	font-size: 20px;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	margin-left: -20px;
+	margin-right: 125px;
+	margin-top: 5px;
+	z-index: 1;
+	border-left: 1px solid black;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+#consultant {
+	float: right;
+	font-size: 20px;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	margin-left: -10px;
+	margin-right: 100px;
+	margin-top: 5px;
+	z-index: 1;
+	border-left: 1px solid black;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+#quotes:hover, #consultant:hover {
+	text-shadow: 0 0 50px black;
+	font-weight: 900;
+}
+
+#consultant_list {
+	float: left;
+	color: white;
+	font-size: 18px;
+	margin-left: 25px;
+	margin-top: 10px;
+	padding-right: 10px;
+	border-right: 1px solid black;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#consultant_list:hover {
+	float: left;
+	color: gold;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-top: 10px;
+	padding-right: 10px;
+	border-right: 1px solid black;
+	z-index: 1;
+}
+
+
+#list {
+	display: none;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+#contact_information {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+#phone {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	margin-top: -20px;
+	font-size: 24px;
+
+}
+
+#phone_number {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	margin-top: -20px;
+	font-size: 18px;
+}
+
+#street_address {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	margin-top: -20px;
+	font-size: 24px;
+}
+
+#address {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	margin-top: -20px;
+	font-size: 18px;
+}	
+
+#border {
+	margin-left: 30px;
+	border-left: 2px solid black;
+}
+
+#contact_form {
+	margin-left: 100px;
+}
+
+#resize {
+	float: right;
+	margin-top: -290px;
+	margin-right: 200px;
+	width: 600px;
+	height: auto;
+	border-width: 3px;
+	border-style: 3px solid black;
+}
+
+background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=94/189+M.+Narasiri,+Vacharapol+Rd.+Bangkhen,+Thailand+10220&zoom=13&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C94/189+M.+Narasiri,+Vacharapol+Rd.+Bangkhen,+Thailand+10220);
+
+#zoom {
+	margin-left: 500px;
+}
+
+#pre_consultation {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#instructions {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+#email_address {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+#email {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: -20px;
+}
+
+#push {
+	margin-right: 200px;
+}
